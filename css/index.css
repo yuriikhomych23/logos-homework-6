@@ -65,53 +65,47 @@
     text-decoration-line: underline; 
 }
 
-.central-text-top{
+.centr{
     display: flex;
     flex-direction: column;
-    width: 503px;
-    height: 42px;
+    width: 600px;
+    height: 167px;
 }
 
-.main-text {
+.central-text-top{
     color: white;
     font-weight: 500;
     font-size: 28px;
-    padding-left: 108px;
-    padding-top: 140px;
     text-transform: uppercase;
+    padding-left: 108px;
+    padding-top: 87px;
 }
 
-.central-text-bottom {
-    display: flex;
-    flex-direction: column;
-    width: 503px;
-    height: 115px;
-
-}
-
-.minor-text {
+.central-text-bottom{
     color: white;
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
-    padding-top: 40px;
+    padding-top: 10px; 
     padding-left: 108px;
 }
 
 .button {
-    border: 1px solid white;
-    width: 198px;
-    height: 55px;
-    padding-top: 362px;
     padding-left: 108px;
-
+    padding-top: 60px; 
 }
 
 .read-more-button {
     color: white;
+    background-color: black;
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    text-transform: uppercase;
     text-align: center;
-    text-decoration: uppercase;
 }
+
+
 
 
 
