@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+
+.icon-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.martin {
+    width: 50%;
+}
+
+.background-nav {
+    background-color: black;
+    width: 50%;
+}
+
+.date-lifestyle {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ .date {
+    color: white;
+    padding-left: 108px;
+    padding-top: 110px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+}
+
+
+.lifestyle {
+    color: white;
+    padding-top: 107px;
+    padding-right: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline; 
+}
+
+.central-text-top{
+    display: flex;
+    flex-direction: column;
+    width: 503px;
+    height: 42px;
+}
+
+.main-text {
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    padding-left: 108px;
+    padding-top: 140px;
+    text-transform: uppercase;
+}
+
+.central-text-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 503px;
+    height: 115px;
+
+}
+
+.minor-text {
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 40px;
+    padding-left: 108px;
+}
+
+.button {
+    border: 1px solid white;
+    width: 198px;
+    height: 55px;
+    padding-top: 362px;
+    padding-left: 108px;
+
+}
+
+.read-more-button {
+    color: white;
+    text-align: center;
+    text-decoration: uppercase;
+}
+
+
+
