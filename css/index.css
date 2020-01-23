@@ -105,6 +105,186 @@
     text-align: center;
 }
 
+.featured {
+    width: 86px;
+    height: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 149px;
+    padding-top: 57px;
+}
+
+.main-part {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.screen {
+    padding-left: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-date {
+    width: 117px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 26px;
+    padding-left: 20px;
+    font-style: normal;
+    color: black;
+}
+
+.screen-lifestyle {
+    width: 57px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 26px;
+    padding-left: 20px;
+    font-style: normal;
+    text-decoration-line: underline;
+    color: black; 
+}
+
+.lorem-main {
+    width: 557px;
+    height: 72px;
+    padding-top: 34px;/* доробити */
+    padding-left: 20px;
+}
+
+.lorem-text-main {
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    font-style: normal;
+    line-height: 36px;
+}
+
+.lorem-minor {  
+    width: 557px;
+    height: 54px;
+    padding-top: 59px; /*доробити*/
+    padding-left: 20px;
+}
+
+.lorem-text-minor {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+}
+
+
+
+.second-part-img1 {
+    padding-top: 150px; /*доробити*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-1 {
+    padding-left: 70px;
+}
+
+.img-3 {
+    padding-right: 55px;
+}
+
+
+.description-date-second-part1 {
+    display: block;
+}
+
+.date-second-part1 {
+    width: 117px;
+    height: 18px;
+    padding-left: 145px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.lifestyle-second-part1 {
+    width: 57px;
+    height: 18px;
+    padding-left: 470px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+
+/* 
+.date-second-part2 {
+    width: 117px;
+    height: 18px;
+    padding-left: 539px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.lifestyle-second-part2 {
+    width: 57px;
+    height: 18px;
+    padding-left: 843px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+} */
+
+.second-lorem1 {
+    width: 480px;
+    height: 27px;
+}
+
+.second-lorem-text1 {
+    padding-left: 145px;
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button-see-all {
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-see-all-text {
+    background-color: black;
+    width: 238px;
+    height: 42px;
+    border: 1px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
 
 
 
