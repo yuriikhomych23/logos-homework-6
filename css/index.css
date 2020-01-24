@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
 .nav {
     display: flex;
     width: 100%;
@@ -193,7 +195,7 @@
 }
 
 .img-1 {
-    padding-left: 70px;
+    padding-left: 73px;
 }
 
 .img-3 {
@@ -208,7 +210,7 @@
 .date-second-part1 {
     width: 117px;
     height: 18px;
-    padding-left: 145px;
+    padding-left: 148px;
     padding-top: 18px;
     font-style: normal;
     font-weight: 500;
@@ -225,33 +227,11 @@
     font-size: 12px;
     line-height: 18px;
     text-decoration-line: underline;
+    text-transform: uppercase;
 }
-
-/* 
-.date-second-part2 {
-    width: 117px;
-    height: 18px;
-    padding-left: 539px;
-    padding-top: 18px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-.lifestyle-second-part2 {
-    width: 57px;
-    height: 18px;
-    padding-left: 843px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    
-} */
 
 .second-lorem1 {
-    width: 480px;
+    width: 500px;
     height: 27px;
 }
 
@@ -283,9 +263,187 @@
 }
 
 
+.background-section {
+    display: flex;
+    justify-content: stretch;
+    padding-top: 72px;
+}
+
+.magazine-coffe {
+    padding-left: 148px;
+    width: 50%;
+}
+
+.background-second-section {
+    background-color: black;
+    width: 630px;
+}
+
+.issue {
+    width: 470px;
+    height: 51px;
+} 
+
+.isseu22 {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 123px;  
+}
+
+.button-subscrime-now {
+    padding-top: 194px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-subscrime-now-text {
+    background-color: black;
+    color: white;
+    width: 198px;
+    height: 42px;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.interviews {
+    width: 99px;
+    height: 27px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 64px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.third-part-img {
+    padding-top: 31px; /*доробити*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-5 {
+    padding-left: 73px;
+}
+
+.img-7 {
+    padding-right: 55px;
+}
 
 
+.description-date-second-part5 {
+    display: block;
+}
+
+.date-second-part5 {
+    width: 117px;
+    height: 18px;
+    padding-left: 148px;
+    padding-top: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.lifestyle-second-part5 {
+    width: 66px;
+    height: 18px;
+    padding-left: 440px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.second-lorem5 {
+    width: 500px;
+    height: 27px;
+}
+
+.second-lorem-text5 {
+    padding-left: 150px;
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button-see-all-second {
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-see-all-text-second {
+    background-color: black;
+    width: 238px;
+    height: 42px;
+    border: 1px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news {
+    padding-top: 37px;
+    padding-left: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
 
 
+.forth-part-img {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.microphone {
+    padding-left: 73px;
+}
 
+.magazines {
+    padding-right: 55px;
+}
+
+.description-date-second-part-third-section{
+    display: block;
+}
+
+.date-second-part-magazine {
+    width: 117px;
+    height: 18px;
+    padding-left: 148px;
+    padding-top: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.lifestyle-second-part-magazine {
+    width: 66px;
+    height: 18px;
+    padding-left: 480px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
