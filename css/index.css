@@ -21,18 +21,111 @@
     height: 83.5vh;
 }
 
+.header-title-background-description {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.data {
+    width: 136px;
+    height: 3.3vh;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 7px;
+}
+
+.lifestyle {
+    width: 75px;
+    height: 3.78vh;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.background-text {
+    color: white;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    width: 503px;
+    height: 6.62vh;
+}
+
+.background-text-another {
+    width: 503px;
+    height: 18.1vh;
+    color: white;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+button {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    width: 198px;
+    height: 8.66vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 970px) {
+    .data {
+        width: 50px;
+    }
+    .lifestyle {
+        width: 50px;
+    }
+    .header-title-background-description {
+        width: 50px;
+    }
+    .background-text {
+        width: 200px;
+    }
+    .background-text-another {
+        width: 200px;
+    }
+    button {
+        width: 100px;
+        height: 4vh;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width: 970px) {
     .martin {
        width: 50%;
-       
+       height: 60vh;
     }
     .header-title-background {
         width: 50%;
-       
+       height: 60vh;
     }
 }
 
 .featured {
     width: 86px;
     height: 4.25vh;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
 }
