@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +25,9 @@
 
 .header-title-background-description {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
+    margin: 100px 108px;
 }
 
 .data {
@@ -50,6 +53,11 @@
     text-transform: uppercase;
 }
 
+.header-background-text {
+    display: block;
+    margin: -35px 108px;
+}
+
 .background-text {
     color: white;
     font-family: Kanit;
@@ -59,6 +67,8 @@
     line-height: 42px;
     width: 503px;
     height: 6.62vh;
+    text-transform: uppercase;
+
 }
 
 .background-text-another {
@@ -72,7 +82,11 @@
     line-height: 21px;
 }
 
-button {
+.button {
+    padding-left: 108px;
+    padding-top: 59px; 
+}
+.read-more-button {
     border: 1px solid white;
     color: white;
     background-color: black;
@@ -80,44 +94,6 @@ button {
     height: 8.66vh;
     text-align: center;
     text-transform: uppercase;
-}
-
-@media screen and (max-width: 970px) {
-    .data {
-        width: 50px;
-    }
-    .lifestyle {
-        width: 50px;
-    }
-    .header-title-background-description {
-        width: 50px;
-    }
-    .background-text {
-        width: 200px;
-    }
-    .background-text-another {
-        width: 200px;
-    }
-    button {
-        width: 100px;
-        height: 4vh;
-    }
-}
-
-
-
-
-
-
-@media screen and (max-width: 970px) {
-    .martin {
-       width: 50%;
-       height: 60vh;
-    }
-    .header-title-background {
-        width: 50%;
-       height: 60vh;
-    }
 }
 
 .featured {
@@ -128,4 +104,171 @@ button {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    padding-left: 148px;
+    padding-top: 57px;
 }
+
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 40px;
+}
+
+ .description {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.screen-date {
+    width: 117px;
+    height: 2.85vh;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.screen-lifestyle {
+    width: 57px;
+    height: 2.85vh;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 26px;
+    padding-left: 20px;
+    font-style: normal;
+    text-decoration-line: underline;
+    color: black; 
+    font-family: 'Kanit', sans-serif;
+}
+
+.lorem-main {
+    width: 557px;
+    height: 72px;
+    padding-top: 40px;
+}
+
+.lorem-text-main {
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    font-style: normal;
+    line-height: 36px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lorem-minor {  
+    width: 557px;
+    height: 54px;
+    padding-top: 59px;
+}
+
+.lorem-text-minor {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+@media screen and (max-width: 1200px) {
+     .martin {
+       width: 50%;
+       height: 90vh;
+    }
+    .header-title-background {
+        width: 50%;
+       height: 90vh;
+    }
+    .data {
+        height: 2vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lifestyle {
+        height: 2vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-title-background-description {
+        width: 100%;
+    }
+    .background-text {
+        width: 450px;
+    }
+    .background-text-another {
+        width: 300px;
+
+    }
+    .read-more-button {
+        width: 160px;
+        height: 7vh;
+        font-size: 12px;
+    }
+    .left-picture {
+        width: 600px;
+        height: 30vh;
+    }
+    .right-picture {
+        width: 600px;
+        height: 30vh;
+    }
+}
+
+
+
+@media screen and (max-width: 970px) {
+     .martin {
+       width: 100%;
+       height: 100vh;
+    }
+    .header-title-background {
+        width: 100%;
+       height: 100vh;
+    }
+    .data {
+        height: 2vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lifestyle {
+        height: 2vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-title-background-description {
+        width: 100%;
+    }
+    .background-text {
+        width: 450px;
+    }
+    .background-text-another {
+        width: 300px;
+
+    }
+    .read-more-button {
+        width: 160px;
+        height: 7vh;
+        font-size: 12px;
+    }
+    .left-picture {
+        width: 100%;
+        height: 60vh;
+    }
+    .right-picture {
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
