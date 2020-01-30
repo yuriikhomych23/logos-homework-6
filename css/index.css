@@ -1,4 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 16.5vh;
+}
+
+.icon-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 2rem;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+.logo {
+    width: 157px;
+    height: 30px;
+}
+
+.logo-suffix {
+    padding-left: 673px;
+    padding-top: 43.5px;
+}
+
+.imgNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.martin {
+    width: 50%;
+    height: 83.5vh;
+}
+
+.background-nav {
+    background-color: black;
+    width: 50%;
+}
+
+.date-lifestyle {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ .date {
+    color: white;
+    padding-left: 108px;
+    padding-top: 110px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.lifestyle {
+    color: white;
+    padding-top: 107px;
+    padding-right: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline; 
+    font-family: 'Kanit', sans-serif;
+}
+
+.centr{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 167px;
+}
+
+.central-text-top{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-left: 108px;
+    padding-top: 87px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.central-text-bottom{
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 10px; 
+    padding-left: 108px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.button {
+    width: 198px;
+    height: 7.6vh;
+    padding-left: 108px;
+    padding-top: 60px; 
+}
+
+.read-more-button {
+    color: white;
+    background-color: black;
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.featured {
+    width: 86px;
+    height: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 149px;
+    padding-top: 57px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main-part {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.screen {
+    padding-left: 20px;
+}
+
+.biocarbon {
+    padding-left: 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-date {
+    width: 117px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 26px;
+    padding-left: 20px;
+    font-style: normal;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.screen-lifestyle {
+    width: 57px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 26px;
+    padding-left: 20px;
+    font-style: normal;
+    text-decoration-line: underline;
+    color: black; 
+    font-family: 'Kanit', sans-serif;
+}
+
+.lorem-main {
+    width: 557px;
+    height: 72px;
+    padding-top: 34px;/* доробити */
+    padding-left: 20px;
+}
+
+.lorem-text-main {
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    font-style: normal;
+    line-height: 36px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lorem-minor {  
+    width: 557px;
+    height: 54px;
+    padding-top: 59px; /*доробити*/
+    padding-left: 20px;
+}
+
+.lorem-text-minor {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.second-part-img1 {
+    padding-top: 150px; /*доробити*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-1 {
+    padding-left: 73px;
+}
+
+.img-3 {
+    padding-right: 55px;
+}
+
+
+.description-date-second-part1 {
+    display: block;
+}
+
+.date-second-part1 {
+    width: 117px;
+    height: 18px;
+    padding-left: 148px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lifestyle-second-part1 {
+    width: 57px;
+    height: 18px;
+    padding-left: 448px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+.second-lorem1 {
+    width: 550px;
+    height: 27px;
+}
+
+.second-lorem-text1 {
+    padding-left: 145px;
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.button-see-all {
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-see-all-text {
+    background-color: black;
+    width: 238px;
+    height: 42px;
+    border: 1px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.background-section {
+    display: flex;
+    justify-content: stretch;
+    padding-top: 72px;
+}
+
+.magazine-coffe {
+    padding-left: 148px;
+    width: 50%;
+}
+
+.background-second-section {
+    background-color: black;
+    width: 630px;
+}
+
+.issue {
+    width: 500px;
+    height: 51px;
+} 
+
+.isseu22 {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 123px;  
+    font-family: 'Kanit', sans-serif;
+}
+
+.button-subscrime-now {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-subscrime-now-text {
+    background-color: black;
+    color: white;
+    width: 198px;
+    height: 42px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+.interviews {
+    width: 99px;
+    height: 27px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 64px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.third-part-img {
+    padding-top: 31px; /*доробити*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-5 {
+    padding-left: 73px;
+}
+
+.img-7 {
+    padding-right: 55px;
+}
+
+
+.description-date-second-part5 {
+    display: block;
+}
+
+.date-second-part5 {
+    width: 117px;
+    height: 18px;
+    padding-left: 148px;
+    padding-top: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lifestyle-second-part5 {
+    width: 66px;
+    height: 18px;
+    padding-left: 440px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+.second-lorem5 {
+    width: 550px;
+    height: 27px;
+}
+
+.second-lorem-text5 {
+    padding-left: 150px;
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.button-see-all-second {
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-see-all-text-second {
+    background-color: black;
+    width: 238px;
+    height: 42px;
+    border: 1px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.news {
+    padding-top: 37px;
+    padding-left: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.forth-part-img {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.microphone {
+    padding-left: 73px;
+}
+
+.magazines {
+    padding-right: 55px;
+}
+
+.description-date-second-part-third-section{
+    display: block;
+}
+
+.date-second-part-magazine {
+    width: 117px;
+    height: 18px;
+    padding-left: 148px;
+    padding-top: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lifestyle-second-part-magazine {
+    width: 66px;
+    height: 18px;
+    padding-left: 480px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+footer .background-footer {
+    background-color: black;
+    width: 100%;
+    height: 163px;
+}
+
+.suffix {
+    width: 142px;
+    height: 27px;
+}
+
+.suffix-text {
+    padding-left: 734px;
+    padding-top: 63px;
+    color: white;
+}
+
+
+.designed {
+    width: 100%;
+    height: 18px;
+}
+.designed-text {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 715px;
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 720px) {
+    .martin {
+        width: 50%;
+        height: 100vh;
+    }
+    .background-nav {
+        width: 50%;
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 
 * {
     margin: 0;
@@ -28,7 +658,7 @@
     display: flex;
     justify-content: space-between;
     margin: 105px 108px 0;
-}
+} 
 
 .date {
     font-family: Kanit;
@@ -103,6 +733,5 @@
 .first-section-image{
     display: flex;
     justify-content: space-around;
-    margin: 34px 95px 0;
-}
+} */
 
